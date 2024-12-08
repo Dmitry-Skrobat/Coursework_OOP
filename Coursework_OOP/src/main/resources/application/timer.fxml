@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="panel" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="538.0" style="-fx-background-color: BFD3C1; -fx-background-radius: 1;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface.Time">
+   <children>
+      <Label fx:id="currentTime" contentDisplay="RIGHT" layoutX="115.0" layoutY="99.0" prefHeight="111.0" prefWidth="323.0" style="-fx-background-color: ffe5d4; -fx-background-radius: 50;" text="    12:30:23" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Lucida Bright" size="49.0" />
+         </font>
+      </Label>
+      <Button fx:id="powerButton" layoutX="97.0" layoutY="245.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="358.0" style="-fx-background-color: EFC7C2; -fx-background-radius: 50;" text="Включить режим отслеживания">
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="title" layoutX="129.0" layoutY="21.0" prefHeight="44.0" prefWidth="304.0" text="Текущее время">
+         <font>
+            <Font name="Impact" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
